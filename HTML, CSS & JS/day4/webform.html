@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="webform.css">
+</head>
+<body>
+    <header>
+        <div class="topheader">
+            <div class="logo">
+                <img src="sysflogo.png" alt="Logo">
+                <ul class="nav-options">
+                <li style="color: rgb(181, 178, 178);">DASHBOARD</li>
+                <li>PROFILE</li>
+            </ul>
+            </div>
+            <div class="name">
+                <div class="icon">
+                    <img src="user-icon.svg" alt="profile">
+                </div>
+                <div class="text">
+                    <h2>Preksha</h2>
+                    <p>Hello Welcome</p>
+                </div>
+            </div>
+        </div>
+        <div class="btmheader">
+            <h3>Profile info</h3>
+            <h5>Fill your details below</h5>
+        </div>
+    </header>
+    <div class="container">
+        <form id="form" action="display.html" method="get">
+            <div class="inline">
+                <div class="item">
+                    <label>First Name</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                </div>
+                <div class="item">
+                    <label>Last Name</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                </div>
+                <div class="item">
+                    <label>Middle Name</label>
+                    <input type="text" id="middlename" name="middlename" required>
+                </div>
+                <div class="item">
+                    <label>Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+            </div>
+            <div class="inline">
+                <div class="item">
+                    <label>Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="item">
+                    <label>Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="item">
+                    <label>Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value=""></option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <label>Blood Group</label>
+                    <select id="bloodgroup" name="bloodgroup" required>
+                        <option value=""></option>
+                        <option value="A+">A+</option>
+                        <option value="B+">B+</option>
+                        <option value="O+">O+</option>
+                        <option value="AB+">AB+</option>
+                        <option value="A-">A-</option>
+                        <option value="B-">B-</option>
+                        <option value="O-">O-</option>
+                        <option value="AB-">AB-</option>
+                    </select>
+                </div>
+            </div>
+            <div class="itm9">
+                <label>Comments</label>
+                <textarea id="comments" name="comments" rows="5" cols="20" required></textarea>
+            </div>
+            <div class="button">
+                <div class="btmc">
+                    <input type="button" value="Cancle" onclick="clearForm()"></div>
+                <div class="btms">
+                <input type="submit" value="Submit"></div>
+                
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>@ 2004-2024 Sysfore Technologies Ptv Ltd. All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="webform.js"></script>
+</body>
+</html>

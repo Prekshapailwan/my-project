@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: rgb(11, 11, 115); 
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .login {
+            background-color: white;
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+        }
+
+        .text {
+            color: gray;
+        }
+
+        button {
+            background-color: green;
+            width: 100%;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border: none;
+            cursor: pointer;
+        }
+        label{
+            font-size: 20px;
+        }
+        button:hover {
+            opacity: 0.7;
+            background-color: rgb(165, 42, 132);
+        }
+
+        input{
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border: solid 3px;
+            color: rgb(108, 103, 103);
+            box-sizing: border-box;
+        }
+        
+
+        @media screen and (max-width: 600px) {
+            .login {
+                background-color: lightgreen;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body> 
+    <div class="login">
+        <h2>Login</h2>
+        <div class="text">
+            <p>Hello welcome Lorem ipsum is simply dummy text</p>
+        </div>
+        <form>
+            <div class="container" id="containerid">
+                <!-- <label>Username</label><br> -->
+                <!-- <input type="text" placeholder="yyy@xx.com" name="username"><br><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="****" name="password"><br><br>
+                <button type="submit">Login</button> -->
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
