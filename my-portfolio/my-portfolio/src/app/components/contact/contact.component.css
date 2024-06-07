@@ -1,0 +1,43 @@
+.navbar-nav .nav-link {
+    font-size: 22px;
+    font-weight: bold; /* or use 'normal' for regular weight */
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold; /* Adjust the font size as needed */
+}
+.form-group label {
+    color: white;
+}
+  
+.form-control {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-color: rgb(41, 40, 40);
+}
+.btn{
+    color: black;
+    background-color: white;
+}
+.port{
+    color: white;
+}
+.img-frame.straight {
+    transform: rotate(0deg);
+}
+.img-frame {
+    border: 5px solid rgb(32, 32, 32);
+    padding: 10px;
+    background-color:rgb(32, 32, 32);
+    height: 520px;
+    width: 452px;
+    transition: transform 0.5s;
+  }
+  .img-frame.tilted {
+    transform: rotate(5deg);
+  }
+  .toggle-image {
+    transform: scale(1.1); /* Example transformation */
+  }
+  

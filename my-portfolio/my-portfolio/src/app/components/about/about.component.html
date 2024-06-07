@@ -1,0 +1,102 @@
+<div class="body bg-black h-100vh">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container ">
+      <a class="navbar-brand mr-auto mt-3" href="#">PREKSHA R PAILWAN</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse mt-3 navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link"routerLink="/dashboard">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about">ABOUT ME</a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="port ps-4">ABOUT ME</h1>
+    <div class="row">
+      <div class="col-md-6 mt-5">
+        <div class="img-frame" [ngClass]="{'tilted': !isImageToggled, 'straight': isImageToggled}">
+          <img src="./assets/my-image.jpeg" alt="Image 1" class="img-fluid" style="height: 500px; width: 450px;" (mouseover)="toggleImage()" (mouseleave)="toggleImage()">
+        <h5>me!</h5>
+        </div>
+      </div>
+      <div class="col-md-6 text mt-5 ">
+        <h3 class="text-center text-3xl font-bold mb-6 mt-5">Hello there, I'm Preksha <span class="animate-wave" [ngClass]="{'toggle-animate': isImageToggled}">👋</span></h3>
+        <p>
+          I'm a Bangaluru-based photographer with over 6 years of
+          experience in capturing unforgettable moments. I specialize in
+          creating images that are both visually striking and emotionally
+          impactful, and I have developed a signature style that blends
+          natural beauty with vibrant colors and bold compositions.
+        </p>
+        <p>
+          When I'm not behind the camera, you can find me exploring the city's
+          diverse neighborhoods, trying out new restaurants, or spending time
+          with my family and friends. I believe that every moment is an
+          opportunity to experience something new and to create memories that
+          will last a lifetime.
+        </p>
+        <p>
+          Thank you for taking the time to learn a little bit about me and my
+          work. If you're interested in collaborating or would like to see
+          more of my portfolio, please don't hesitate to get in touch. Let's
+          work together to bring your vision to life!
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-black text-center pt-5 text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <h6>PREKSHA PAILWAN</h6>
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/" role="button"
+        ><i class="fab fa-facebook-f "></i
+      ></a>
+
+      <!-- Google -->
+      <a data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="https://www.google.com/" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href=" https://www.linkedin.com/in/preksha-r-pailwan-5b77b8287/" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-light btn-floating m-1" href="https://github.com/" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Developed and Designed by
+    <a class="text-white" href="https://www.linkedin.com/in/preksha-r-pailwan-5b77b8287/">Preksha R Pailwan</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+

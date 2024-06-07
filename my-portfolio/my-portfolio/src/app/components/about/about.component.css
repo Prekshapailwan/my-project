@@ -1,0 +1,49 @@
+.text{
+    color: white;
+}
+.toggle-image {
+    transform: scale(1.1); 
+  }
+  
+  .footer {
+    height: 500px; 
+    background-color:black; 
+    color: white; 
+  }
+  .img-frame {
+    border: 5px solid rgb(32, 32, 32);
+    padding: 10px;
+    background-color:rgb(32, 32, 32);
+    height: 620px;
+    width: 460px;
+    transition: transform 0.5s;
+  }
+  .img-frame.tilted {
+    transform: rotate(5deg);
+  }
+.navbar-nav .nav-link {
+    font-size: 22px;
+    font-weight: bold; 
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold; 
+}
+.img-frame.straight {
+    transform: rotate(0deg);
+  }
+  .port{
+    color: white;
+  }
+  h5 {
+    color: rgb(192, 196, 200);
+    font-style: oblique;
+    text-align: center;
+    font-size: 50px; 
+    padding-top: 20px;
+  }
+  p{
+    font-size: 20px; 
+  }
+
