@@ -1,0 +1,25 @@
+.h-up{
+    background-color: rgb(18, 18, 107);
+}
+.h-b{
+    background-color: rgb(19, 19, 184) ;
+}
+footer{
+    background-color: rgb(222, 220, 220);
+} 
+.page-container{
+    background-color: rgb(187, 185, 185);
+}
+.upper{
+    display: flex;
+}
+.btm{
+    align-items: center;
+    justify-content: end;
+}
+th ,td{
+    color: rgb(112, 112, 112);
+}
+.box{
+    width: 90%;
+}

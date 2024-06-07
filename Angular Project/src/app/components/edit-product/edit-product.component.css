@@ -1,0 +1,12 @@
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{ 
+    width: 90% !important; 
+}
+/* .btn-close{
+    border: none;
+    background-color: white;
+} */

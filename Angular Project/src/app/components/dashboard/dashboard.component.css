@@ -1,0 +1,16 @@
+.h-up{
+    background-color: rgb(18, 18, 107);
+}
+.h-b{
+    background-color: rgb(19, 19, 184) ;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(222, 220, 220);
+}
+.page-container{
+    background-color: rgb(245, 242, 242);
+
+}

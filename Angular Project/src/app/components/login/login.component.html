@@ -1,0 +1,20 @@
+<div class="body">
+    <div class="container">
+        <div class="card rounded-0 p-4">
+            <h2 class="card-title">Login</h2>
+            <div class="text">
+                <p>Hello welcome Lorem ipsum is simply dummy text</p>
+            </div> 
+             <div class="form-group py-3">
+                <label for="username" class="pb-2">Username</label>
+                <input type="email" placeholder="Username" class="form-control rounded-0" [(ngModel)]="username" name="username" maxlength="20" minlength="3" required>
+            </div>
+            <div class="form-group">
+                <label for="password" class="pb-2 ">Password</label>
+                <input type="password" placeholder="*******" class="form-control rounded-0" [(ngModel)]="password" name="password" maxlength="20" minlength="5" required>
+            </div>
+                <button type="button" class=" rounded-0 btn mt-3 py-2" (click)="validation()">Login Your Account</button>
+        </div> 
+    </div>
+</div>
+
